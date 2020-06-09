@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login page</title> 
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/mystyle.css">
+        <style>
+            .row_style{
+                margin-top:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                    <a href="index.html" class="navbar-brand">Lifestyle Store</a>
+                <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span>  Sign Up</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>  Log In</a></li>
+            </ul>
+                </div>
+            </div>
+</nav>
+       <div class="container">
+            <div class="row row_style">
+                <div class="col-xs-6">
+                    <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3>LOGIN to make a purchase.</h3>
+                    </div>
+                        <div class="panel-body">
+                             <form>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="text" class="form-control" name="firstname"><br>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="text" class="form-control" name="firstname"><br>
+                        </div>  
+                                 <input type="submit" value="Submit" class="btn btn-primary">
+                             </form>
+                           <!-- <button class="btn btn-primary">Demo</button>-->
+                        </div>
+                        <div class="panel-footer">Don't have an account?<a href="signup.html">Register</a></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="container">
+            <footer class="navbar navbar-inverse navbar-fixed-bottom" style="text-align: center;padding: 10px 0; background-color: #101010;color:#9d9d9d;bottom: 0;width: 100%;text-align: center;">
+                     <p>Copyright © Lifestyle store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+            </footer>
+        </div>
+    </body>
+</html>
